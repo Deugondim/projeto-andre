@@ -16,6 +16,11 @@ a{
     padding:5% 10%;
     text-align:justify
   }
+  .all_chapters{
+    padding:0.4% 10%;
+    text-align:justify;
+    font-size:150%
+  }
   .btn{
     color:#333;
     border:2px solid;
