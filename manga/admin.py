@@ -12,6 +12,3 @@ class PostPageAdmin(admin.StackedInline):
 @admin.register(Chapter)
 class ChapterAdmin(admin.ModelAdmin):
     inlines = [PostPageAdmin]
-
-    class Meta:
-        model = Chapter
