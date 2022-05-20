@@ -8,6 +8,9 @@ from .models import Chapter, PostPage
 class PostPageAdmin(admin.StackedInline):
     model = PostPage
 
+    class Meta:
+        model = Chapter
+
 
 @admin.register(Chapter)
 class ChapterAdmin(admin.ModelAdmin):
