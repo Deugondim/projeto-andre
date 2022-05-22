@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 
 def home(request):
-    return render(request, 'manga/pages/home.html')
+    return render(request, 'manga/pages/home.htl')
