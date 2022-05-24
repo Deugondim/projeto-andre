@@ -2,3 +2,5 @@ https://javascript.plainenglish.io/20-header-design-html-for-website-c5cd71af640
 
 
 https://soshace.com/upload-multiple-images-to-a-django-model-without-plugins/
+
+https://stackoverflow.com/questions/62064738/django-list-of-objects-not-visible-in-detailview
