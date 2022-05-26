@@ -16,7 +16,7 @@ class Chapter(models.Model):
 class PostPage(models.Model):
     post = models.ForeignKey(Chapter, default=None,
                              null=True, blank=True, on_delete=models.CASCADE)
-    pages = models.FileField(upload_to='manga/static/manga/pages/')
+    pages = models.ImageField(upload_to='manga/pages/')
 
     def __str__(self):
         return self.post.name
