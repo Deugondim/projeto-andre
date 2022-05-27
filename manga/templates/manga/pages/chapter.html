@@ -1,6 +1,4 @@
-
-   
-    <img src="{{photo.pages.url}}">
-
-
-
+{% for photo in photos  %}
+        <img src="{{ photo.pages.url }}">
+{% endfor %}
+  

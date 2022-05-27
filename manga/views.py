@@ -1,6 +1,6 @@
 
-from django.shortcuts import get_object_or_404, render
-from django.views.generic import DetailView, ListView
+from django.shortcuts import render
+from django.views.generic import ListView
 
 from .models import Chapter, PostPage
 
@@ -13,5 +13,8 @@ class ChapterListView(ListView):
 
 
 def viewPhoto(request, pk):
-    photo = PostPage.objects.get(post_id=pk)
-    return render(request, 'manga/pages/chapter.html', {'photo': photo})
+
+    photos = PostPage.objects.filter(post_id=pk)
+    photo = PostPage.objects.all()
+    return render(request, 'manga/pages/chapter.html',
+                  {'photo': photo, 'photos': photos})
