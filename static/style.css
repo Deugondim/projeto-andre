@@ -6,7 +6,7 @@ html,body{
 
 }
 a{
-  text-decoration:none
+  text-decoration: none;
 }
 .header{
   position:relative;
@@ -77,7 +77,7 @@ a{
 .all_chapters{
     padding:0.4% 10%;
     text-align:justify;
-    font-size:150%
+    font-size:170%
   }
 .btn{
   color:#333;
@@ -92,3 +92,19 @@ a{
 .twtr{
   margin-top:100px
 }.btn.twtr:after{content:"\1F426";padding-left:5px}
+
+.chapters_list{
+  padding:0.4% 10%;
+  text-align:justify;
+  font-size:120%;
+}
+.chapters_list a:link{
+  color: #333;
+}
+.chapters_list a:visited{
+  color:dimgrey
+}
+.chapters_list a:hover{
+  color:blue;
+  text-decoration: underline
+}
