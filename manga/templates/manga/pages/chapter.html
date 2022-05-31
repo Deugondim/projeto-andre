@@ -11,7 +11,9 @@
 {% include  'partials/header.html' %}
 
 {% for photo in photos  %}
+        <div class="chapters_pages">
         <img src="{{ photo.pages.url }}">
+        </div>
 {% endfor %}
   
 </body>
