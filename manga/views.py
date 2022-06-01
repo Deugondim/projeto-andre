@@ -16,5 +16,7 @@ def viewPhoto(request, pk):
 
     photos = PostPage.objects.filter(post_id=pk)
     photo = PostPage.objects.all()
+    chapter_name = Chapter.objects.get(id=pk)
     return render(request, 'manga/pages/chapter.html',
-                  {'photo': photo, 'photos': photos})
+                  {'photo': photo, 'photos': photos,
+                   'chapter_name': chapter_name})

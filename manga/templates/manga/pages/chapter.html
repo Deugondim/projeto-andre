@@ -10,6 +10,8 @@
 <body>
 {% include  'partials/header.html' %}
 
+<p>{{chapter_name.name}}</p>
+
 {% for photo in photos  %}
         <div class="chapters_pages">
         <img src="{{ photo.pages.url }}">
