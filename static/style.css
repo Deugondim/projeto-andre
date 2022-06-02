@@ -119,5 +119,9 @@ a{
   max-height:1018px;
   max-width:728px;
   
-  
+}
+
+.chapter_name { 
+  text-align: center;
+  font-size:300%;
 }
