@@ -76,7 +76,9 @@ a{
 }
 .content{  
   padding:5% 10%;
-  text-align:justify
+  font-size:105%;
+  text-align:justify;
+  line-height: 120%;
 }
 .all_chapters{
     padding:0.4% 10%;
@@ -101,6 +103,7 @@ a{
   padding:0.4% 10%;
   text-align:justify;
   font-size:120%;
+  line-height: 150%;
 }
 .chapters_list a:link{
   color: #333;
