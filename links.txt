@@ -6,3 +6,5 @@ https://soshace.com/upload-multiple-images-to-a-django-model-without-plugins/
 https://stackoverflow.com/questions/62064738/django-list-of-objects-not-visible-in-detailview
 
 https://github.com/divanov11/photo-album-app
+
+https://mangakakalot.com/read-ug4bp158524532773
