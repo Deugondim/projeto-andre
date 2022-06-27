@@ -8,6 +8,7 @@ from django.dispatch import receiver
 
 class Chapter(models.Model):
     name = models.CharField(max_length=150)
+    chapter_number = models.PositiveIntegerField(default=0, unique=True)
 
     def __str__(self):
         return self.name
