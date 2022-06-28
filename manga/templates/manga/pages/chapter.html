@@ -27,17 +27,16 @@
         </div>
 {% endfor %}
 
+
 {% if chapter_number_link == 1 %}
-<a href="{% url 'manga:photo' next_chapter %}"> Next Chapter </a>
+<div class = "next_page_1"><a href="{% url 'manga:photo' next_chapter %}"> Next Chapter </a></div>
 {% elif chapter_number_link == 50 %}
-<a href="{% url 'manga:photo' previous_chapter %}"> Previous Chapter</a>
+<div class = "prev_page_50"><a href="{% url 'manga:photo' previous_chapter %}"> Previous Chapter</a></div>
 {% else %}
-<a href="{% url 'manga:photo' previous_chapter %}"> Previous Chapter</a>
-<a href="{% url 'manga:photo' next_chapter %}"> Next Chapter </a>
+<div class = "prev_page" style = "float :left"><a href="{% url 'manga:photo' previous_chapter %}"> Previous Chapter</a></div>
+<div class = "next_page"><a href="{% url 'manga:photo' next_chapter %}"> Next Chapter </a></div>
 {% endif %}
 
-
-<p></p>
 </body>
 {% include  'partials/footer.html' %}
 </html>
